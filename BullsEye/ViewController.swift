@@ -47,6 +47,17 @@ class ViewController: UIViewController {
         score = 0
         round = 0
         startNewRound()
+        
+//        crossfade()
+    }
+    
+    func crossfade() {
+        // crossfade animation
+        let transition = CATransition()
+        transition.type = CATransitionType.fade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        view.layer.add(transition, forKey: nil)
     }
     
     func startNewRound() {
@@ -54,7 +65,7 @@ class ViewController: UIViewController {
         currentValue = 50
         slider.value = Float(currentValue)
         round += 1
-        
+        crossfade()
         updateLabels()
     }
     

@@ -9,4 +9,4 @@ Your goal is to place the slider as close as possible to the target value. The c
 
 ![Image of User Score](https://github.com/mohsinaliayub/BullsEye/blob/master/Screenshots/ScoreScreen.png)
 
-![Image of About Scene](https://github.com/mohsinaliayub/BullsEye/blob/master/Screenshots/About.png)
+![Image of About Scene](https://github.com/mohsinaliayub/BullsEye/blob/master/Screenshots/AboutScene.png)

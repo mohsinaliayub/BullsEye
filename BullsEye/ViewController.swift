@@ -65,8 +65,8 @@ class ViewController: UIViewController {
         currentValue = 50
         slider.value = Float(currentValue)
         round += 1
-        crossfade()
         updateLabels()
+        crossfade()
     }
     
     func updateLabels() {
